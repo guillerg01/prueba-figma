@@ -4,13 +4,13 @@ import { SocialIcon } from 'react-social-icons';
 import imagen from '../img/img1.png'
 import imagen2 from '../img/img2.png'
 import imagen3 from '../img/img3.png'
-
+import { Ojos2 } from './ojos2';
 
 export const Header = ()=>{
 return(
 <>
       <div  className='h-96 bg-[#001854]  p-6 px-8 shadow-lg drop-shadow-2xl shadow-slate-700'  >
-    
+      <Ojos2  ></Ojos2>
         <div className="flex  justify-between h-12 shadow-md  shadow-gray-600  bg-white rounded-lg p-2 px-4">
 
             <div className='flex  flex-row space-x-14 items-center  '>
