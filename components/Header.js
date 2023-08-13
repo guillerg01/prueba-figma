@@ -5,7 +5,6 @@ import imagen from '../img/img1.png'
 import imagen2 from '../img/img2.png'
 import imagen3 from '../img/img3.png'
 
-
 export const Header = ()=>{
 return(
 <>
@@ -43,7 +42,7 @@ return(
 
 <Image alt='Logo' className=' lg:w-[27rem] h-auto z-30' src={imagen} />
 <Image alt='Logo de fondo' className=' z-20   absolute w-4/5 h-3/4  left-[35%] ' src={imagen2} />
-{/* <Image className='h-10 w-auto top-2/4 absolute  ' src={imagen3}  /> */}
+<Image alt='Logo' className='h-10 w-auto ml-36 top-[23.5rem] absolute   ' src={imagen3}  />
 </section>
         </div>
        
