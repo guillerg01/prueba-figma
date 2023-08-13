@@ -9,10 +9,11 @@ import {FiChevronRight , FiChevronLeft} from 'react-icons/fi'
 import { Imagenes } from '@/components/imagenes';
 import { Servicios } from '@/components/Servicios';
 import { useToggleContext } from '@/context/contextprovider';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function  Home ()  {
- 
+  AOS.init();
   const setdata = useContext(useToggleContext)
  
  
@@ -42,8 +43,8 @@ const scrollRight = ()=>{
        <Header></Header>
       <div className=" h-screen">
         <div className="mt-24 flex  ">
-          <div className="mx-10 ml-24">
-            <h2 className="font-bold text-2xl text-[#3A67CC]"> Servicios</h2>
+          <div data-aos="zoom-in" className="mx-10 ml-24">
+            <h2  className="font-bold text-2xl text-[#3A67CC]"> Servicios</h2>
             <h1 className="text-4xl font-bold">
               Esta info te llega desde un servicio  externo
             </h1>

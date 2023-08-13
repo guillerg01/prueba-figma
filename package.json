@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
+    "aos": "^2.3.4",
     "autoprefixer": "10.4.14",
     "axios": "^1.4.0",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
+    "framer-motion": "^10.15.1",
     "jquery": "^3.7.0",
     "next": "13.4.12",
     "postcss": "8.4.27",

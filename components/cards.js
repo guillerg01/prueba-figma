@@ -1,14 +1,17 @@
 import './css/cards.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Card = ({icono , heading , para})=>{
+  AOS.init();
 return(
-<div className="card">
-  <div className="content">
-    <p className="heading">{heading}
+<div data-aos="fade-right" className="card">
+  <div data-aos="fade-right" className="content">
+    <p data-aos="fade-right" className="heading">{heading}
     </p>
-    <p className="para">{para}
+    <p data-aos="fade-right" className="para">{para}
     </p>
-    <button className="btn">Leer Mas</button>
+    <button data-aos="fade-right" className="btn">Leer Mas</button>
   </div>
 </div>
 

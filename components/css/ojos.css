@@ -1,0 +1,35 @@
+.eyes{
+    position: absolute;
+    opacity: 1%;
+    top:50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.eye{
+width: 240px;
+height: 170px;
+background: #fff;
+display: inline-block;
+margin: 40px;
+border-radius: 50%;
+border: 1px solid #000;
+position: relative;
+overflow:hidden;
+
+
+}
+.ball{
+    width: 60px;
+    height: 60px;
+    background: #000;
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 10px solid #002e66;
+}
