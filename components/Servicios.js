@@ -1,11 +1,13 @@
 import { apiContext, useToggleContext } from "@/context/contextprovider";
-import { useState, useContext } from "react"
+import { useState, useContext ,useEffect} from "react"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
 export const Servicios = () => {
-    AOS.init();
+    useEffect(() => {
+    AOS.init()
+}, [])
 const data = useContext(apiContext)
 
     return (
