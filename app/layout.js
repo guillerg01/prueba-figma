@@ -1,5 +1,5 @@
 
-import { ApiProvider } from '@/context/contextprovider'
+
 import './globals.css'
 
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
 
 
   return (
-     <ApiProvider>
+    
     <html className='m-0 p-0'  suppressHydrationWarning={true} lang="en">
       <body >
        
@@ -27,6 +27,6 @@ export default function RootLayout({ children }) {
         
         </body>
     </html>
-    </ApiProvider>
+   
   )
 }

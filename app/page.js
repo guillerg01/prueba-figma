@@ -1,5 +1,5 @@
 'use client'
-
+import { ApiProvider } from '@/context/contextprovider'
 import { Header } from '@/components/Header'
 import { useContext } from 'react';
 import { useEffect, useState  } from 'react';
@@ -38,7 +38,7 @@ const scrollRight = ()=>{
 }
  
   return (
- 
+ <ApiProvider>
     <main>
        <Header></Header>
       <div className=" h-screen">
@@ -78,6 +78,6 @@ const scrollRight = ()=>{
         </div>
       </div>
     </main>
-  
+    </ApiProvider>
   );
 }
