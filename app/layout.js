@@ -1,4 +1,4 @@
-'use client'
+
 import { ApiProvider } from '@/context/contextprovider'
 import './globals.css'
 
